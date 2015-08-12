@@ -1,0 +1,32 @@
+{
+    "name": "monospice/spicy-uri-matcher",
+    "description": "Compare URLs with ease.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cy Rossignol",
+            "email": "cy.rossignol@yahoo.com"
+        }
+    ],
+    "require": {
+        "ext-mbstring": "*",
+        "ext-intl": "*",
+        "ext-filter": "*",
+        "league/url": "dev-master",
+        "monospice/spicy-identifiers": "1.0.x-dev"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monospice\\SpicyUrlMatcher\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+         }
+    }
+}

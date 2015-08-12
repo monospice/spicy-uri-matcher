@@ -1,0 +1,7 @@
+formatter.name: pretty
+suites:
+    main:
+        namespace: Monospice\SpicyUrlMatcher
+        psr4_prefix: Monospice\SpicyUrlMatcher
+        spec_path: tests
+        spec_prefix: Spec
